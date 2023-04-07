@@ -1,0 +1,160 @@
+:root{
+    /* Fonts */
+    --primary-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    /* Colors */
+    --main-txt-cl: #434455;
+    --secondary-txt-cl: #2E2F42;
+    --background-cl: #fff;
+    --accent-cl: #4D5AE5;
+    --hover-cl: #404bbf;
+    --section-cl: #F4F4FD;
+    --cards-cl: #E7E9FC;
+}
+
+
+body{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-cl);
+    background-color: var(--background-cl);
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.header-logo{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent-cl);
+}
+
+.header-logo-text{
+    color: var(--secondary-txt-cl)
+}
+
+.header-nav{
+    font-weight: 500;
+    color: var(--secondary-txt-cl);
+}
+
+.header-link{
+    color: var(--secondary-txt-cl);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--hover-cl);
+}
+
+.header-main-address{
+    font-style: normal;
+}
+
+.header-address-link{
+    color: var(--main-txt-cl);
+}
+
+.header-address-link:hover,
+.header-address-link:focus{
+    color: var(--hover-cl);
+}
+
+.main-banner{
+    background-color: var(--secondary-txt-cl);
+}
+
+.banner-text{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--background-cl);
+}
+
+.banner-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: var(--accent-cl);
+    color: var(--background-cl);
+}
+
+.banner-button:hover,
+.banner-button:focus {
+    background: var(--hover-cl);
+    cursor: pointer;
+}
+
+.dscr-section-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
+}
+
+.dscr-section-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-cl);
+}
+
+.work-name{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
+}
+
+.main-team{
+    background: var(--section-cl);
+}
+
+.main-card-team{
+    background: var(--background-cl);
+}
+
+.footer{
+    background: var(--secondary-txt-cl);
+}
+
+.footer-logo-text{
+    color: var(--section-cl);
+}
+
+.footer-text{
+    color: var(--section-cl);
+}
+
+.main-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: var(--section-cl);
+    color: var(--accent-cl);
+}
+.main-button:hover,
+.main-button:focus{
+    background: var(--hover-cl);
+    color: var(--background-cl);
+    cursor: pointer;
+}
