@@ -68,6 +68,7 @@ body {
 
 .header-li-link {
   color: var(--secondary-txt-cl);
+  padding: 24px 0;
 }
 
 .header-li-link:hover,
@@ -97,6 +98,7 @@ body {
 .header-address-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 /* Main */
@@ -116,6 +118,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--background-cl);
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .banner-button {
@@ -127,10 +130,13 @@ body {
   background: var(--accent-cl);
   color: var(--background-cl);
   min-width: 169px;
-  min-height: 56px;
+  height: 56px;
   padding: 16px 32px;
   gap: 10px;
   border-radius: 4px;
+  display: block;
+  border: none;
+  cursor: pointer; 
 }
 
 .banner-button:hover,
@@ -158,6 +164,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .dscr-section-text {
@@ -188,7 +195,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
   margin-bottom: 72px;
-  text-align: center;
 }
 
 /* Team */
@@ -233,31 +239,6 @@ body {
   padding-bottom: 120px;
 }
 
-.first {
-  min-width: 69px;
-  min-height: 48px;
-}
-
-.second {
-  min-width: 116px;
-  min-height: 48px;
-}
-
-.third {
-  min-width: 78px;
-  min-height: 48px;
-}
-
-.fourth {
-  min-width: 101px;
-  min-height: 48px;
-}
-
-.fifth {
-  min-width: 126px;
-  min-height: 48px;
-}
-
 .portfolio-cards-li {
   width: 360px;
   height: 420px;
@@ -283,12 +264,17 @@ body {
   letter-spacing: 0.04em;
   background: var(--section-cl);
   color: var(--accent-cl);
+  justify-content: center; 
+  padding: 12px 24px;
+  border: 1px solid var(--cards-cl);
+  border-radius: 4px;
 }
 .main-button:hover,
 .main-button:focus {
   background: var(--hover-cl);
   color: var(--background-cl);
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 /* Footer */
@@ -340,4 +326,8 @@ ul {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+img{
+    display: block;
 }
