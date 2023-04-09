@@ -82,7 +82,6 @@ body {
 
 .header-address-link {
   color: var(--main-txt-cl);
-  margin-right: 40px;
 }
 
 .header-address-link:hover,
