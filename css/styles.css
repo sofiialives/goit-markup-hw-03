@@ -165,7 +165,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .dscr-section-text {
@@ -173,10 +172,27 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
-  text-align: center
+}
+
+.main-dscr-item{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Work */
+
+.work-section{
+  margin-bottom: 120px;
+}
 
 .work-list-li{
     width: calc((100% - 48px) / 3);
@@ -217,16 +233,26 @@ body {
 }
 
 .team-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 232px;
+  text-align: center;
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
 }
 
 /* Portfolio */
+
+.main-services{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .portfolio-name{
   font-weight: 500;
@@ -261,7 +287,6 @@ body {
 
 .portfolio-cards-li {
   width: calc((100% - 48px) / 3);
-  height: 420px;
 }
 
 .portfolio-div{
@@ -316,6 +341,14 @@ body {
 }
 
 .footer-logo-link{
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-cl);
+  display: inline-block;
   margin-bottom: 16px;
 }
 
