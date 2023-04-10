@@ -112,10 +112,13 @@ body {
 .banner-text {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--background-cl);
   margin-bottom: 48px;
+  max-width: 496px; 
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 
 .banner-button {
@@ -225,6 +228,24 @@ body {
 
 /* Portfolio */
 
+.portflio-name{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-cl);
+  margin-bottom: 8px;
+  justify-content: flex-start;
+}
+
+.portflio-text{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl); 
+  justify-content: flex-start;
+}
+
 .portfolio-list {
   display: flex;
   align-items: flex-start;
@@ -239,8 +260,13 @@ body {
 }
 
 .portfolio-cards-li {
-  width: 360px;
+  width: calc((100% - 48px) / 3);
   height: 420px;
+}
+
+.portfolio-div{
+  padding: 32px 16px;
+  border: 1px solid var(--cards-cl); 
 }
 
 .portfolio-cards-list {
@@ -248,16 +274,6 @@ body {
   gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap; 
-}
-
-.portfolio-div {
-  margin: 32px 0;
-  padding-left: 16px;
-}
-
-.portfolio-container{
-  padding: 32px 16px;
-  border: 1px solid var(--cards-cl); 
 }
 
 .main-button {
