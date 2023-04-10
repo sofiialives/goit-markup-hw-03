@@ -191,7 +191,7 @@ body {
 /* Work */
 
 .work-section{
-  margin-bottom: 120px;
+  padding-bottom: 120px; 
 }
 
 .work-list-li{
@@ -388,4 +388,6 @@ ul {
 
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
