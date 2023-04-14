@@ -229,7 +229,7 @@ body {
 .main-card-team {
   background: var(--background-cl);
   width: calc((100% - 72px) / 4);
-  height: 380px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card {
